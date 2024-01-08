@@ -84,8 +84,10 @@
 .discount-image {
     width: 800px;
     height: 500px;
-    margin-left: 350px;
-    margin-right: 350px;
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    display: block;
+    margin: 0 auto;
 }
 
 /* party section */
