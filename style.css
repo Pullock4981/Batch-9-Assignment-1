@@ -184,6 +184,13 @@
 
 /* coming soon section */
 
+
+.add-coming-soon{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 .coming-soon {
     /* margin-left: 130px;
     margin-right: 130px; */
