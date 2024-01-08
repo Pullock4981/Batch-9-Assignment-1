@@ -26,7 +26,7 @@
     background-image: linear-gradient(180deg, #070211, #07021100), url('resources/Banner\ Image.png');
     width: auto;
     /* height: 600px; */
-    height: 45vh;
+    height: 57vh;
     /* margin: 0 auto; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
     font-family: Merriweather;
     font-size: 3vw;
     font-weight: 400;
-    padding-top: 9vh;
+    padding-top: 10vh;
     margin-bottom: 3vh;
 }
 
@@ -50,9 +50,9 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 9vh;
-    font-weight: 900;
-    line-height: 9vh;
+    font-size: 10vh;
+    font-weight: 700;
+    line-height: 10vh;
     /* margin-left: 300px;
     margin-right: 300px; */
 }
@@ -105,11 +105,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    width: auto;
-    height: 550px;
-    margin-top: 120px;
-    margin-left: 130px;
-    margin-right: 130px;
+    width: 78vw;
+    height: 50vh;
+    margin-top: 17vh;
+    margin-left: 6vw;
 }
 
 .year-image {
@@ -125,9 +124,9 @@
 .party-heading {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 5vh;
     font-weight: 900;
-    line-height: 88px;
+    line-height: 8vh;
     margin-left: 6vw;
     padding-top: 5vw;
 }
@@ -135,10 +134,10 @@
 .party-small-text {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 2vh;
     font-weight: 400;
-    line-height: 30px;
-    margin-left: 120px;
+    line-height: 3vh;
+    margin-left: 6vw;
 }
 
 
@@ -146,15 +145,15 @@
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 150px;
-    margin-top: 50px;
+    font-size: 2.5vh;
+    margin-left: 6vw
 }
 
 .year-image {
-    margin-top: 60px;
-    margin-right: 130px;
+    width: 26vw;
+    height: 48vh;
+    margin-top: 1vh;
+    margin-right: 3vw;
 }
 
 /* time-date section */
