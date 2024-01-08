@@ -14,12 +14,20 @@
     margin-top: 25px;
 }
 
+.container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
 /* header section */
 
 .banner-image {
     background-image: linear-gradient(180deg, #070211, #07021100), url('resources/Banner\ Image.png');
     width: auto;
-    height: 600px;
+    /* height: 600px; */
+    height: 38vw;
+    /* margin: 0 auto; */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -98,10 +106,15 @@
     background-size: cover;
     border-radius: 16px;
     width: auto;
-    height: 570px;
+    height: 550px;
     margin-top: 120px;
     margin-left: 130px;
     margin-right: 130px;
+}
+
+.year-image {
+    height: 430px;
+    /* width: auto; */
 }
 
 .party-element {
@@ -115,8 +128,8 @@
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
-    margin-left: 120px;
-    padding-top: 130px;
+    margin-left: 6vw;
+    padding-top: 5vw;
 }
 
 .party-small-text {
@@ -185,10 +198,11 @@
 /* coming soon section */
 
 
-.add-coming-soon{
+.add-coming-soon {
     width: 80%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .coming-soon {
@@ -212,6 +226,10 @@
 
 }
 
+.circle-img-new-div {
+    width: 33%;
+}
+
 .coming-soon-imsge {
     width: 290px;
     height: 290px;
@@ -224,7 +242,7 @@
 
 .new-best-offer {
     margin-top: 80px;
-    width: 20%;
+    width: 23%;
 }
 
 .new-best-offer h4 {
@@ -270,8 +288,9 @@
 }
 
 .new-year-pic-text {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     margin-top: 80px;
+    width: 23%;
 
 }
 
@@ -285,8 +304,13 @@
 
 .holidays-sale {
     margin-top: 40px;
-    margin-left: 130px;
-    margin-right: 130px;
+    display: block;
+    width: 80%;
+    position: relative;
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .holidays-sale h4 {
@@ -297,6 +321,19 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+#abc {
+    position: absolute;
+    top: 22vw;
+    left: 33vw;
+    z-index: 10;
+}
+
+/* .offer {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+} */
 
 .holidays-sale h1 {
     color: #070211;
@@ -334,16 +371,29 @@
 
 .img-2 {
     margin-top: 4px;
-    margin-left: 32px;
+    /* margin-left: 32px; */
     position: relative;
+    align-items: start;
+    justify-content: end;
+    display: flex;
+    padding-top: 0.9vw;
 }
 
 /* gift section */
 
+.g-1 {
+    width: 80%;
+    /* margin-top: 120px ; */
+    margin-top: 5vw;
+    margin: 0 auto;
+
+}
+
 .gift {
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-top: 120px;
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    /* margin-top: 120px; */
+    margin: 0 auto;
     /* margin-bottom: 50px; */
 
 }
@@ -370,12 +420,12 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    margin-right: 330px;
+    /* margin-right: 330px; */
 }
 
 .gift-image {
-    width: 400px;
-    height: 430px;
+    /* width: 400px;
+    height: 430px; */
     border-radius: 16px;
     margin-top: 48px;
 }
@@ -386,9 +436,13 @@
 }
 
 .gift-row-1 {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* justify-content: space-between; */
+    gap: 12px;
 }
 
 /* subscribe section */
@@ -464,7 +518,7 @@
     /* left: 770px; */
 }
 
-.input-btn{
+.input-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -475,9 +529,16 @@
 /* footer */
 
 .footer {
-    margin-top: 120px;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
     padding-bottom: 120px;
-    background: #070211;
+    /* background: #070211; */
+}
+
+.extra-footer {
+    margin-top: 7vw;
+    background-color: #070211;
 }
 
 .footer-text {
