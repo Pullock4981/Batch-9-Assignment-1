@@ -26,7 +26,7 @@
     background-image: linear-gradient(180deg, #070211, #07021100), url('resources/Banner\ Image.png');
     width: auto;
     /* height: 600px; */
-    height: 57vh;
+    height: 64vh;
     /* margin: 0 auto; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,9 +50,9 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 10vh;
+    font-size: 11vh;
     font-weight: 700;
-    line-height: 10vh;
+    line-height: 12vh;
     /* margin-left: 300px;
     margin-right: 300px; */
 }
