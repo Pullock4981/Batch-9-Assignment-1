@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
 }
 
-.secondary-btn{
+.secondary-btn {
     border-radius: 5px;
     background: #FF0000;
     border: 0;
@@ -13,47 +13,47 @@
     margin-right: 7px;
     margin-top: 25px;
 }
+
 /* header section */
 
-.banner-image{
-    background-image: linear-gradient(180deg,#070211, #07021100),url('resources/Banner\ Image.png');
-    /* width: 1320px; */
+.banner-image {
+    background-image: linear-gradient(180deg, #070211, #07021100), url('resources/Banner\ Image.png');
     width: auto;
     height: 600px;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     border-radius: 16px;
     margin-left: 130px;
     margin-right: 130px;
     margin-top: 50px;
 }
 
-.banner-text{
+.banner-text {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px; 
-    font-weight: 400; 
-    padding-top: 170px; 
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
     margin-bottom: 24px;
 }
 
-.banner-heading{
+.banner-heading {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px; 
-    font-weight: 900; 
-    line-height: 95px; 
-    margin-left: 300px;  
-    margin-right: 300px; 
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 /* main section */
 
-    /* discount section */
+/* discount section */
 
-.discount-off{
+.discount-off {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -62,7 +62,7 @@
     margin-top: 120px;
 }
 
-.discount-text{
+.discount-text {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -71,7 +71,7 @@
     margin-top: 48px;
 }
 
-.discount-small-heading{
+.discount-small-heading {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -81,7 +81,7 @@
     margin-bottom: 50px;
 }
 
-.discount-image{
+.discount-image {
     width: 800px;
     height: 500px;
     margin-left: 350px;
@@ -90,12 +90,11 @@
 
 /* party section */
 
-.party-section{
-    background-image: linear-gradient(90deg,#070211, #07021100),url('resources/Vectorrr.png');
+.party-section {
+    background-image: linear-gradient(90deg, #070211, #07021100), url('resources/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: cover;
     border-radius: 16px;
-    /* width: 1320px; */
     width: auto;
     height: 570px;
     margin-top: 120px;
@@ -103,12 +102,12 @@
     margin-right: 130px;
 }
 
-.party-element{
+.party-element {
     display: flex;
     gap: 40px;
 }
 
-.party-heading{
+.party-heading {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -118,7 +117,7 @@
     padding-top: 130px;
 }
 
-.party-small-text{
+.party-small-text {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -128,7 +127,7 @@
 }
 
 
-#second-btn{
+#second-btn {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -138,15 +137,16 @@
     margin-top: 50px;
 }
 
-.year-image{
+.year-image {
     margin-top: 60px;
     margin-right: 130px;
 }
 
 /* time-date section */
 
-.time-date{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+.time-date {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
     margin-top: 120px;
     margin-left: 130px;
     margin-right: 130px;
@@ -154,12 +154,12 @@
 
 }
 
-.time-date-text{
+.time-date-text {
     padding-top: 100px;
     padding-bottom: 120px;
 }
 
-.time-date-text h3{
+.time-date-text h3 {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -167,11 +167,11 @@
     line-height: 56px;
 }
 
-.span{
+.span {
     color: #F00;
 }
 
-#btn{
+#btn {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -182,14 +182,17 @@
 
 /* coming soon section */
 
-.coming-soon{
+.coming-soon {
     margin-left: 130px;
     margin-right: 130px;
     margin-top: 170px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.circle-image{
+.circle-image {
     width: 350px;
     height: 350px;
     border-radius: 350px;
@@ -197,10 +200,10 @@
     margin-top: 10px;
     margin-right: 90px;
     margin-left: 40px;
-    
-} 
 
-.coming-soon-imsge{
+}
+
+.coming-soon-imsge {
     width: 290px;
     height: 290px;
     border-radius: 290px;
@@ -210,20 +213,21 @@
 
 }
 
-.new-best-offer{
+.new-best-offer {
     margin-top: 80px;
+    width: 20%;
 }
 
-.new-best-offer h4{
+.new-best-offer h4 {
     color: #F00;
-    text-align:left;
+    text-align: left;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 14px;
 }
 
-.new-best-offer h3{
+.new-best-offer h3 {
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
@@ -231,23 +235,23 @@
     margin-bottom: 16px;
 }
 
-.new-best-offer p{
+.new-best-offer p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
     margin-right: 22px;
 }
 
-.new-year-pic-text h1{
+.new-year-pic-text h1 {
     color: #F00;
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
 }
 
-.new-year-pic-text p{
+.new-year-pic-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 15px;
@@ -256,13 +260,13 @@
     width: 300px;
 }
 
-.new-year-pic-text{
+.new-year-pic-text {
     margin-right: 50px;
     margin-top: 80px;
-    
+
 }
 
-.twenty-img{
+.twenty-img {
     width: 100px;
     height: 100px;
 
@@ -270,13 +274,13 @@
 
 /* holidays-sale */
 
-.holidays-sale{
+.holidays-sale {
     margin-top: 40px;
     margin-left: 130px;
     margin-right: 130px;
 }
 
-.holidays-sale h4{
+.holidays-sale h4 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -285,7 +289,7 @@
     margin-bottom: 10px;
 }
 
-.holidays-sale h1{
+.holidays-sale h1 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -294,7 +298,7 @@
     margin-bottom: 30px;
 }
 
-.holidays-sale p{
+.holidays-sale p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -305,7 +309,7 @@
     margin-right: 130px;
 }
 
-.sale{
+.sale {
     /* margin-left: 130px;
     margin-right: 130px;  */
     margin-top: 80px;
@@ -318,15 +322,15 @@
     background-position: bottom;
 }
 
-.img-2{
+.img-2 {
     margin-top: 4px;
-    margin-left:32px;
+    margin-left: 32px;
     position: relative;
 }
 
 /* gift section */
 
-.gift{
+.gift {
     margin-left: 130px;
     margin-right: 130px;
     margin-top: 120px;
@@ -334,7 +338,7 @@
 
 }
 
-.gift h4{
+.gift h4 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -342,7 +346,7 @@
     margin-bottom: 15px;
 }
 
-.gift h2{
+.gift h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -350,7 +354,7 @@
     margin-bottom: 22px;
 }
 
-.gift p{
+.gift p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -359,19 +363,19 @@
     margin-right: 330px;
 }
 
-.gift-image{
+.gift-image {
     width: 400px;
     height: 430px;
     border-radius: 16px;
     margin-top: 48px;
 }
 
-.gift-image:hover{
+.gift-image:hover {
     border: 2px solid black;
-    box-shadow:0px 0px 15px 2px black;
+    box-shadow: 0px 0px 15px 2px black;
 }
 
-.gift-row-1{
+.gift-row-1 {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -379,7 +383,7 @@
 
 /* subscribe section */
 
-.subscribe{
+.subscribe {
     margin-top: 120px;
     margin-left: 130px;
     margin-right: 130px;
@@ -387,13 +391,13 @@
     background: rgba(255, 0, 0, 0.05);
 }
 
-.letter-img{
-   padding-top: 80px;
-   padding-left: 570px;
-   margin-bottom: 40px;
+.letter-img {
+    padding-top: 80px;
+    padding-left: 570px;
+    margin-bottom: 40px;
 }
 
-.subscribe h1{
+.subscribe h1 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -402,19 +406,19 @@
     margin-bottom: 20px;
 }
 
-.subscribe p{
+.subscribe p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px; 
+    line-height: 32px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 22px;
 }
 
-.email{
+.email {
     width: 648px;
     height: 72px;
     border-radius: 50px;
@@ -430,7 +434,7 @@
     position: absolute;
 }
 
-.sub-btn{
+.sub-btn {
     width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
@@ -447,19 +451,19 @@
 
 /* footer */
 
-.footer{
+.footer {
     margin-top: 120px;
     padding-bottom: 120px;
     background: #070211;
 }
 
-.footer-text{
+.footer-text {
     display: flex;
     justify-content: space-between;
     gap: 680px;
 }
 
-.footer-discreption p{
+.footer-discreption p {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -469,7 +473,7 @@
     margin-left: 140px;
 }
 
-.ph-number{
+.ph-number {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -479,7 +483,7 @@
     margin-right: 220px;
 }
 
-.ph-email{
+.ph-email {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -489,39 +493,40 @@
     margin-right: 220px;
 }
 
-.hr-line{
+.hr-line {
     margin-top: 30px;
     margin-left: 130px;
     margin-right: 130px;
 }
 
-.icon{
+.icon {
     margin-left: 600px;
     margin-right: 600px;
     margin-top: 40px;
 }
-.icon ul{
+
+.icon ul {
     display: flex;
     justify-content: space-between;
 }
 
-.icon li{
+.icon li {
     text-decoration: none;
 
 }
 
-.icon li a{
+.icon li a {
     text-decoration: none;
 }
 
-.last-div{
+.last-div {
     display: flex;
     justify-content: space-between;
     margin-left: 130px;
     margin-right: 130px;
 }
 
-.last-div-text{
+.last-div-text {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -529,7 +534,7 @@
     margin-top: 20px;
 }
 
-#un-sub{
+#un-sub {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -540,13 +545,3 @@
     border: 0;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
